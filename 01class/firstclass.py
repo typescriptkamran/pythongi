@@ -7,7 +7,7 @@ hisname: str = "700"
 # conda install mypy mypyc
 
 name: str = "muhammad Kamran"
-# name = 700 # there will be error as name is string type
+name = "700" # there will be error as name is string type
 print(name)
 print(type(name))
 print(id(name))
