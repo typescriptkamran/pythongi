@@ -1,6 +1,6 @@
 print("Pakistan Zindabad")
 myname: str = "muhammad Kamran"
-hisname: str = "700"
+hisname: str = "700" 
 
 # to install mytype in anaconda please check this repository
 # https://github.com/conda-forge/mypy-feedstock
