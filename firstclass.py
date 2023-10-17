@@ -1,5 +1,4 @@
 print("Pakistan Zindabad")
-myname = "muhammad Kamran"
 myname: str = "muhammad Kamran"
 hisname: str = "700"
 
@@ -7,8 +6,9 @@ hisname: str = "700"
 # https://github.com/conda-forge/mypy-feedstock
 # conda install mypy mypyc
 
-name = "muhammad Kamran"
-print("name")
+name: str = "muhammad Kamran"
+# name = 700 # there will be error as name is string type
+print(name)
 print(type(name))
 print(id(name))
 print([i for i in dir(name) if "__" not in i]) # method attributes
